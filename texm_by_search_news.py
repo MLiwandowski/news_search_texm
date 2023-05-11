@@ -79,7 +79,7 @@ async def publish_articles():
 
     # Publish articles to your Telegram channel
     new_articles = []
-    delay_seconds = 2  # Customize the delay duration in seconds
+    delay_seconds = 500  # Customize the delay duration in seconds
     for article in data:
         article_title = article['article_title']
         article_img = article['article_img']
@@ -102,7 +102,7 @@ async def publish_articles():
 
             # Add the article to the published articles list
             new_articles.append(article)
-            time.sleep(randrange(2, 5))
+            time.sleep(randrange(500, 600))
 
     # Update the published articles record
     published_articles.extend(new_articles)
