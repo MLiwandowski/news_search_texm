@@ -13,8 +13,8 @@ from random import randrange
 # script_path_n... = "./news_search_n... .py"
 
 # Run the script
-subprocess.call(["python", script_path_1])
-subprocess.call(["python", script_path_2])
+# subprocess.call(["python", script_path_1])
+# subprocess.call(["python", script_path_2])
 
 # ////////////////////////////////////////////////////////////
 
