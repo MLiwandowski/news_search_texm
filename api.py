@@ -7,7 +7,8 @@ import schedule
 import time
 
 # Define your keywords
-KEYWORDS = ["keyword1", "keyword2", "keyword3"]
+KEYWORDS = ["Apple", "Blackview", "Google", "Iphone", "LG", "Lynk & Co", "Motorola", "Nintendo Switch",
+            "Pixel", 'Realme', "Sharp", "Tecno", "Xiaomi", "Samsung", "Nokia", "Tesla", "PlayStation", "смартфон"]
 
 # Define your headers
 headers = {
