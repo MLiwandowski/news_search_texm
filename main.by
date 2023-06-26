@@ -214,7 +214,7 @@ async def publish_articles():
         data = json.load(file)
 
     # Initialize your Telegram bot
-    bot_token = '6230573565:AAGro7qOktJvU_4hzvIFazZkT9UUDug1r8g'
+    bot_token = '                    '
     bot = Bot(token=bot_token)
 
     # Define your Telegram channel ID
